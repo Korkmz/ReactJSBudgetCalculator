@@ -75,7 +75,10 @@ class App extends Component{
           <div className={"col-md-8 mx-auto banner-main p-4"}>
               <BudgetForm addButget={this.addButget} updateSta={this.state.updateSta}
              />
-              <BudgetList list={this.state.list} sil={this.sil} tumSil={this.tumSil} duzenle={this.duzenle}/></div>
+              <BudgetList list={this.state.list} sil={this.sil} tumSil={this.tumSil} duzenle={this.duzenle}/>
+
+          </div>
+            <BudgetTotal list={this.state.list}/>
         </div>
     );
   }
