@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: #919191;
+}
+
+.banner-main{
+  background-color: white;
+}
+.banner-main-label{
+  font-size: calc(5px + 1vmin);
+
+}
+.banner-main-a{
+  padding: 1vmin;
+  padding-left: 3vmin;
+  padding-right: 3vmin;
+  color: white;
+  background-color: #e63727;
+
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.butget-list-a{
+  padding: 1vmin;
+  color: gray;
+  background-color: #e63727;
+
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.butget-list{
+  background-color: white;
+  height: auto;
+
+
+}
+.butget-list {
+  border: 1px solid #E0E0E0;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.bg-drk{
+  text-align: right;
+}
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.butget-list:hover{
+
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+ }
+@media (max-width: 776px) {
+  .col-md-4{
+    text-align: center;
+    margin: 5px;
+
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+.text-success{
+  text-align: center;
+}
+}
+
